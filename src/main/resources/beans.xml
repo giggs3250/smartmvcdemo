@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- 
+		配置处理器相关的信息，class属性用来指定处理器类名.
+		DispatcherServlet会解析这些配置信息，将处理器实例化。
+	 -->
+	<bean class="demo.BmiController"/>	
+	
+</beans>
